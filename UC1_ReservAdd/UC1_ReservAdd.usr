@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC1_ReservAdd__*delimiter*__PayTicket"
+Order="UC1_ReservAdd__*delimiter*__StartWebTours__*delimiter*__LogIn__*delimiter*__ToFlightsPage__*delimiter*__ReservTicket__*delimiter*__LogOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,7 +60,11 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC1_ReservAdd=
-PayTicket=
+StartWebTours=
+LogIn=
+ToFlightsPage=
+ReservTicket=
+LogOut=
 [ParameterSimulation]
 NumVusers=1
 IsDurationIndefinite=0

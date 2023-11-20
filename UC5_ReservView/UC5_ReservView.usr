@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC5_ReservView"
+Order="UC5_ReservView__*delimiter*__StartWebTours__*delimiter*__LogIn__*delimiter*__ViewAllTicket__*delimiter*__LogOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,3 +60,7 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC5_ReservView=
+StartWebTours=
+LogIn=
+ViewAllTicket=
+LogOut=

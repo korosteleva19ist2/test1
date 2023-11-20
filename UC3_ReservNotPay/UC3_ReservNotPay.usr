@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC3_ReservNotPay"
+Order="UC3_ReservNotPay__*delimiter*__StartWebTours__*delimiter*__LogIn__*delimiter*__ToFlightsPage__*delimiter*__ReservTicket__*delimiter*__ViewAllTicket__*delimiter*__LogOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,3 +60,9 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC3_ReservNotPay=
+StartWebTours=
+LogIn=
+ToFlightsPage=
+ReservTicket=
+ViewAllTicket=
+LogOut=

@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC2_Registration__*delimiter*__ToRegistrationPage__*delimiter*__Registration__*delimiter*__ToAfterRegistrationPage"
+Order="UC2_Registration__*delimiter*__StartWebTours__*delimiter*__ToRegistrationPage__*delimiter*__Registration__*delimiter*__LogIn__*delimiter*__LogOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,6 +60,8 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC2_Registration=
+StartWebTours=
 ToRegistrationPage=
 Registration=
-ToAfterRegistrationPage=
+LogIn=
+LogOut=
